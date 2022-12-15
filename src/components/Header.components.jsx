@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="mx-auto flex justify-between px-24 py-5 w-full">
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl text-black capitalize underline decoration-4 font-black">
+        <h1 className="text-2xl text-black capitalize underline decoration-2 font-black mx-10 mt-10 underline-offset-8">
           Cloudo
         </h1>
         {/* <svg
@@ -23,10 +23,10 @@ function Header() {
           />
         </svg> */}
       </div>
-      <div className="flex justify-evenly items-center">
+      {/* <div className="flex justify-evenly items-center">
         <h5>UserName</h5>
         <p>Img</p>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -11,7 +11,7 @@ const AddonElements = () => (
     <Header />
 
     <Outlet />
-    <Footer />
+    {/* <Footer /> */}
   </>
 );
 

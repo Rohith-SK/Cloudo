@@ -4,10 +4,10 @@ function Header() {
   return (
     <div className="mx-auto flex justify-between px-24 py-5 w-full">
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl text-black capitalize underline decoration-4 font-black">
+        <h1 className="text-2xl text-black capitalize underline decoration-2 font-black mx-10 mt-10 underline-offset-8">
           Cloudo
         </h1>
-        <svg
+        {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="#F1305E"
           class="bi bi-cloud-upload mt-3 ml-10 h-8"
@@ -21,12 +21,12 @@ function Header() {
             fill-rule="evenodd"
             d="M7.646 4.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V14.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3z"
           />
-        </svg>
+        </svg> */}
       </div>
-      <div className="flex justify-evenly items-center">
+      {/* <div className="flex justify-evenly items-center">
         <h5>UserName</h5>
         <p>Img</p>
-      </div>
+      </div> */}
     </div>
   );
 }

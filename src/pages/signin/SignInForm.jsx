@@ -16,18 +16,18 @@ function SignInFormComponent() {
       <Input
         type="email"
         placeholder="Enter your email"
-        labelName="Your email"
+        // labelName="Your email"
         onChangeFn={setEmail}
         required={true}
       />
       <Input
         type="password"
         placeholder="Enter your password"
-        labelName="Your password"
+        // labelName="Your password"
         onChangeFn={setPassword}
         required={true}
       />
-      <Button name="Submit" type="submit" />
+      <Button name="Sign in" type="submit" />
     </form>
   );
 }

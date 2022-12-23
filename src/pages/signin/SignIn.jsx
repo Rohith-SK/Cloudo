@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SignInFormComponent from "./SignInForm";
 
 function SignIn() {
@@ -11,6 +12,12 @@ function SignIn() {
       </div>
       <div className="border border-black shadow-xl mx-auto w-2/5 h-full">
         <SignInFormComponent />
+        <div>
+          <h2>
+            Not yet Registered?
+            <Link to="/signup">SignUp</Link> here
+          </h2>
+        </div>
       </div>
     </div>
   );

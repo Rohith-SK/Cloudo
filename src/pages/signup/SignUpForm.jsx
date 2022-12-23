@@ -3,9 +3,11 @@ import Button from "../../components/button/button";
 import Input from "../../components/input/Input";
 
 function SignUpFormComponent() {
-  // const [name, setName] = useState("");
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [mobileNo, setMobileNo] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -17,7 +19,7 @@ function SignUpFormComponent() {
         type="name"
         placeholder="Enter your name"
         labelName="Enter name"
-        onChangeFn={setEmail}
+        onChangeFn={setName}
         required={true}
       />
       <Input
@@ -28,10 +30,10 @@ function SignUpFormComponent() {
         required={true}
       />
       <Input
-        type="mobileNo"
+        type="tel"
         placeholder="Enter your Mobile Number"
         labelName="Enter Mobile Number"
-        onChangeFn={setEmail}
+        onChangeFn={setMobileNo}
         required={true}
       />
       <Input
@@ -42,13 +44,13 @@ function SignUpFormComponent() {
         required={true}
       />
       <Input
-        type="confirmPassword"
+        type="password"
         placeholder="Confirm Password"
         labelName="Confirm Password"
-        onChangeFn={setEmail}
+        onChangeFn={setConfirmPassword}
         required={true}
       />
-      <Button name="Submit" type="submit" />
+      <Button name="Sign Up" type="submit" />
     </form>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Input({
   type = "text",
-  labelName = "Field Name",
+  // labelName = "Field Name",
   placeholder = "Your text goes here",
   classStyle = "",
   required = false,
@@ -10,12 +10,12 @@ function Input({
 }) {
   return (
     <div className="group m-3 py-3">
-      <label
+      {/* <label
         for={labelName}
         class="block  mb-2 text-sm font-medium text-gray-900 dark:text-white"
       >
         {labelName}
-      </label>
+      </label> */}
 
       <input
         type={type}

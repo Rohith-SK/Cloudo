@@ -4,13 +4,14 @@ import SignInFormComponent from "./SignInForm";
 
 function SignIn() {
   return (
-    <div className="md:flex justify-between px-16 block gap-10 ">
-      <div className="w-2/3 border border-blue-700 md:my-48 my-5">
-        <h2 className="text-2xl text-center font-bold">
+    <div className="md:flex justify-between px-16 block gap-10 my-44">
+      <div className="w-2/3 md:my-48 my-5">
+        <h2 className="text-2xl text-center font-bold flex justify-start">
           Hey, enter your details to get sign in to your account
         </h2>
       </div>
-      <div className="border border-black shadow-xl mx-auto w-2/5 h-full">
+      <div className="border border-black shadow-xl mx-auto w-96 h-2/2 rounded-xl">
+        <h2 className="text-2xl text-center font-bold mt-8">Sign in</h2>
         <SignInFormComponent />
         <div>
           <h2>

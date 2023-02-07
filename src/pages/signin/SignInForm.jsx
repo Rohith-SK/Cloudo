@@ -12,11 +12,11 @@ function SignInFormComponent() {
   };
 
   return (
-    <form method="post" className="p-5" onSubmit={handleSubmit}>
+    <form method="post" className="px-5 mt-16" onSubmit={handleSubmit}>
       <Input
         type="email"
         placeholder="Enter your email"
-        // labelName="Your email"
+        labelName="Your email"
         onChangeFn={setEmail}
         required={true}
       />

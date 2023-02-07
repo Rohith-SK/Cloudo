@@ -9,7 +9,7 @@ function Input({
   onChangeFn = () => {},
 }) {
   return (
-    <div className="group m-3 py-3">
+    <div className="group m-3 py-3 pb-0">
       {/* <label
         for={labelName}
         class="block  mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -22,7 +22,7 @@ function Input({
         placeholder={placeholder}
         onChange={onChangeFn}
         required={required}
-        className={`${classStyle} w-full border text-xl rounded-3xl mx-auto p-3`}
+        className={`${classStyle} w-full border text-base rounded-lg h-10 mx-auto p-3`}
       />
     </div>
   );

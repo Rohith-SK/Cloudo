@@ -1,11 +1,12 @@
 import React from "react";
+import "./button.scss";
 
 function Button({ name = "", type = "button", classStyle = "" }) {
   return (
     <button
       type={type}
       title={name}
-      className={`${classStyle} border rounded-lg p-1`}
+      className={`${classStyle} w-full border rounded-lg p-1 mt-10 form-button`}
     >
       {name}
     </button>

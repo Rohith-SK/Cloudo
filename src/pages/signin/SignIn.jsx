@@ -5,7 +5,7 @@ import SignInFormComponent from "./SignInForm";
 function SignIn() {
   return (
     <div className="md:flex justify-between px-16 block gap-10 my-44">
-      <div className="w-2/3 md:my-48 my-5">
+      <div className="w-2/6 md:my-48 my-5">
         <h2 className="text-2xl text-center font-bold flex justify-start">
           Hey, enter your details to get sign in to your account
         </h2>
@@ -14,9 +14,12 @@ function SignIn() {
         <h2 className="text-2xl text-center font-bold mt-8">Sign in</h2>
         <SignInFormComponent />
         <div>
-          <h2>
-            Not yet Registered?
-            <Link to="/signup">SignUp</Link> here
+          <h2 className="text-base text-center font-medium mt-2 text-centre">
+            Not yet Registered?{" "}
+            <Link to="/signup" className>
+              SignUp
+            </Link>{" "}
+            here
           </h2>
         </div>
       </div>

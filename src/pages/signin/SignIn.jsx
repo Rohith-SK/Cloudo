@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SignInFormComponent from "./SignInForm";
+import "./signin.scss";
 
 function SignIn() {
   return (
@@ -10,13 +11,13 @@ function SignIn() {
           Hey, enter your details to get sign in to your account
         </h2>
       </div>
-      <div className="border border-black shadow-xl mx-auto w-96 h-2/2 rounded-xl">
+      <div className="border shadow-xl mx-auto w-96 h-2/2 rounded-xl signin-form">
         <h2 className="text-2xl text-center font-bold mt-8">Sign in</h2>
         <SignInFormComponent />
         <div>
           <h2 className="text-base text-center font-medium mt-2 text-centre">
             Not yet Registered?{" "}
-            <Link to="/signup" className>
+            <Link to="/signup" className="signup-text">
               SignUp
             </Link>{" "}
             here

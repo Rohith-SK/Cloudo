@@ -1,0 +1,15 @@
+@import "../../assets/scss/colors.scss";
+
+
+.signup-text{
+    color: $color-palered;
+}
+
+.signin-form{
+    border-color: $color-white;
+    -webkit-border-radius: 27px;
+border-radius: 27px;
+background: #fdfeff;
+-webkit-box-shadow: 5px 5px 13px #a4a5a6, -5px -5px 13px #ffffff;
+box-shadow: 5px 5px 13px #a4a5a6, -5px -5px 13px #ffffff;;
+}

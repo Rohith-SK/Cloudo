@@ -1,16 +1,15 @@
 @import "../../assets/scss/colors.scss";
 
-
-.signup-text{
-    color: $color-palered;
+.signup-text {
+  color: $color-palered;
 }
 
-.signin-form{
-    background-color: $color-offwhite;
-    border-color: $color-white;
-    -webkit-border-radius: 27px;
-border-radius: 27px;
-background: #fdfeff;
--webkit-box-shadow: 5px 5px 13px #a4a5a6, -5px -5px 13px #ffffff;
-box-shadow: 5px 5px 13px #a4a5a6, -5px -5px 13px #ffffff;;
+.signin-form {
+  width: 374px;
+  height: 551px;
+  background: #f2f2f2;
+  mix-blend-mode: normal;
+  border: 1px solid #f2f2f2;
+  box-shadow: 11px 11px 25px rgba(0, 0, 0, 0.25), -11px -11px 25px #ffffff;
+  border-radius: 45px;
 }

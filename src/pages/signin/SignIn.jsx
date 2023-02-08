@@ -11,7 +11,7 @@ function SignIn() {
           Hey, enter your details to get sign in to your account
         </h2>
       </div>
-      <div className="border shadow-xl mx-auto w-96 h-2/2 rounded-xl signin-form">
+      <div className="border  mx-auto  h-2/2 signin-form">
         <h2 className="text-2xl text-center font-bold mt-8">Sign in</h2>
         <SignInFormComponent />
         <div>

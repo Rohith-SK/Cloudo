@@ -12,7 +12,7 @@ function SignIn() {
         </h2>
       </div>
       <div className="border  mx-auto  h-2/2 signin-form">
-        <h2 className="text-2xl text-center font-bold mt-8">Sign in</h2>
+        <h2 className="text-2xl text-center font-bold mt-24">Sign in</h2>
         <SignInFormComponent />
         <div>
           <h2 className="text-base text-center font-medium mt-2 text-centre">

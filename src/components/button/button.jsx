@@ -6,7 +6,7 @@ function Button({ name = "", type = "button", classStyle = "" }) {
     <button
       type={type}
       title={name}
-      className={`${classStyle} w-full border rounded-lg p-1 mt-10 form-button`}
+      className={`${classStyle} w-full border rounded-lg p-1 mt-8 form-button`}
     >
       {name}
     </button>

@@ -22,7 +22,7 @@ function Input({
         placeholder={placeholder}
         onChange={onChangeFn}
         required={required}
-        className={`${classStyle} w-full border text-base rounded-lg h-10 mx-auto p-3 bg-white`}
+        className={`${classStyle} w-full border text-base rounded-lg h-10 mx-auto p-3`}
       />
     </div>
   );

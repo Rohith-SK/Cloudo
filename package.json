@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && parcel build src/index.js",
+    "build": "rm -rf dist && parcel build src/App.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
